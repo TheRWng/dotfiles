@@ -1,0 +1,28 @@
+#!/bin/bash
+set -e
+
+packages=(
+    zen-browser-bin
+    wlogout
+    asdf-vm
+)
+
+# Check if package is installed
+is_installed() {
+    paru -Qi "$1" &>/dev/null
+}
+
+# Update package databases
+echo "Updating package databases..."
+paru -Sy --noconfirm
+
+for pkg in "${packages[@]}"; do
+    if is_installed "$pkg"; then
+        echo "[SKIPPED] $pkg is already installed"
+    else
+        echo "[INSTALLING] $pkg..."
+        paru -S --needed --noconfirm "$pkg" || echo "[WARNING] Failed to install $pkg"
+    fi
+done
+
+echo "Installation complete. Reboot recommended for Hyprland."
