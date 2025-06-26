@@ -1,5 +1,6 @@
 # source antidote
 # git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-$HOME}/.antidote
+# chsh -s $(which zsh)
 source $HOME/.antidote/antidote.zsh
 antidote load
 autoload -Uz compinit && compinit
