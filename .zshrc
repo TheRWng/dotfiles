@@ -32,6 +32,7 @@ alias grep='rg --smart-case --hidden'
 
 alias pacs='sudo pacman -S --needed'
 alias pars='paru -S --needed'
+alias leakscan='gitleaks detect --source . -v'
 
 # Prevent accidental overwrites and appends
 set -o noclobber
