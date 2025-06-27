@@ -27,7 +27,7 @@ eval "$(atuin init zsh)"
 alias vim='nvim'
 alias tmux="tmux -2"
 alias find='fd'
-alias cat='bat --theme="custom" --paging=never'
+alias cat='bat --paging=never'
 alias ls="eza --all --group-directories-first --sort=modified --color=always --icons=always --no-user --no-filesize"
 alias lst="eza --all --tree --level=2 --color=always --icons=always --no-user --no-filesize"
 alias grep='rg --smart-case --hidden'
