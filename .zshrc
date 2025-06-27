@@ -9,6 +9,11 @@ autoload -Uz compinit && compinit
 autoload -Uz promptinit && promptinit && prompt pure
 eval "$(zoxide init zsh)"
 source <(fzf --zsh)
+
+# atuin commands
+# atuin register -u <USERNAME> -e <EMAIL>
+# atuin import auto
+# atuin sync
 eval "$(atuin init zsh)"
 
 # export PATH="$HOME/.local/bin/:$PATH"
