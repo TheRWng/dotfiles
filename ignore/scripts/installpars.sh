@@ -2,9 +2,9 @@
 set -e
 
 packages=(
-    zen-browser-bin
-    wlogout
     asdf-vm
+    wlogout
+    zen-browser-bin
 )
 
 # Check if package is installed

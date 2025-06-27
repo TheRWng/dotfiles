@@ -2,64 +2,64 @@
 set -e
 
 packages=(
-    atuin
-    bat
-    cliphist
-    dunst
-    eza
-    fastfetch
-    fd
-    fzf
-    ghostty
-    hypridle
-    hyprland
-    # hyprlock
-    hyprpaper
-    hyprshot
-    hyprsunset
-    polkit
-    hyprpolkitagent
-    imv
-    mpv
-    jq
-    libnotify
-    neovim
-    # pavucontrol
-    ripgrep
-    rofi-wayland
-    stow
-    tldr
-    tmux
-    # ttf-font-awesome
-    ttf-jetbrains-mono-nerd
-    waybar
-    wireplumber
-    wl-clipboard
-    wl-clip-persist
-    xdg-desktop-portal-hyprland
-    yazi
-    zoxide
-    uwsm
-    libnewt
-    nvidia-utils
-    egl-wayland
-    pipewire-pulse
-    ncdu
-    qt5-wayland
-    qt6-wayland
-    openssh
-    udiskie
-    udisks2
-    timeshift
-    zsh
-    gitleaks
-    less
-    # steam
-    # lib32-nvidia-utils
-    # lib32-vulkan-icd-loader
-    # lib32-libglvnd
-    # vulkan-icd-loader
-    # nvidia-dkms
+	atuin
+	bat
+	cliphist
+	dunst
+	egl-wayland
+	eza
+	fastfetch
+	fd
+	fzf
+	ghostty
+	gitleaks
+	hypridle
+	hyprland
+	hyprpaper
+	hyprpolkitagent
+	hyprshot
+	hyprsunset
+	imv
+	jq
+	less
+	libnewt
+	libnotify
+	mpv
+	ncdu
+	neovim
+	nvidia-utils
+	openssh
+	pipewire-pulse
+	polkit
+	qt5-wayland
+	qt6-wayland
+	ripgrep
+	rofi-wayland
+	stow
+	timeshift
+	tldr
+	tmux
+	ttf-jetbrains-mono-nerd
+	udiskie
+	udisks2
+	uwsm
+	waybar
+	wireplumber
+	wl-clipboard
+	wl-clip-persist
+	xdg-desktop-portal-hyprland
+	yazi
+	zoxide
+	zsh
+	# hyprlock
+	# lib32-libglvnd
+	# lib32-nvidia-utils
+	# lib32-vulkan-icd-loader
+	# pavucontrol
+	# steam
+	# ttf-font-awesome
+	# vulkan-icd-loader
+	# nvidia-dkms
 )
 
 # Check if package is installed

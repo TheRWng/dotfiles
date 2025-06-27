@@ -66,4 +66,3 @@ GRUB_DISABLE_SUBMENU=y
 # operating systems.
 #GRUB_DISABLE_OS_PROBER=false
 GRUB_THEME="/theme.txt"
-

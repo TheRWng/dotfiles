@@ -20,6 +20,10 @@ confirm-close-surface = false
 
 # clipboard
 clipboard-trim-trailing-spaces = true
+copy-on-select = clipboard
+
+# Ghostty notifications
+app-notifications = no-clipboard-copy
 
 # behavior
 auto-update = check
@@ -28,52 +32,47 @@ quit-after-last-window-closed = true
 shell-integration-features = no-cursor,no-sudo,no-title
 gtk-titlebar = false
 
-# Copy on clipboard
-copy-on-select = clipboard
-
 # Macos
 # macos-titlebar-style = hidden
 # macos-option-as-alt = true
 
 # For Simple Keybinds
-keybind = super+b>i=inspector:toggle
-keybind = super+b>t=toggle_quick_terminal
+keybind = alt+b>i=inspector:toggle
+keybind = alt+b>t=toggle_quick_terminal
 
-# Similar Tmux but with Ghostty
-# (ctrl b for tmux -> cmb b for ghostty)
-keybind = super+b>q=close_surface
+keybind = alt+b>q=close_surface
 
 # this only works if you have `macos-titlebar-style = tabs or native or transparent`
 # else it behaves like new window
-keybind = super+b>d=new_tab
+keybind = alt+b>d=new_tab
 
 # tab nav
-keybind = super+1=goto_tab:1
-keybind = super+2=goto_tab:2
-keybind = super+3=goto_tab:3
-keybind = super+4=goto_tab:4
-keybind = super+5=goto_tab:5
-keybind = super+6=goto_tab:6
-keybind = super+7=goto_tab:7
-keybind = super+8=goto_tab:8
-keybind = super+9=goto_tab:9
-keybind = super+0=goto_tab:10
+keybind = alt+1=goto_tab:1
+keybind = alt+2=goto_tab:2
+keybind = alt+3=goto_tab:3
+keybind = alt+4=goto_tab:4
+keybind = alt+5=goto_tab:5
+keybind = alt+6=goto_tab:6
+keybind = alt+7=goto_tab:7
+keybind = alt+8=goto_tab:8
+keybind = alt+9=goto_tab:9
+keybind = alt+0=goto_tab:10
 
 # splitting
-keybind = super+b>h=new_split:left
-keybind = super+b>j=new_split:down
-keybind = super+b>k=new_split:up
-keybind = super+b>l=new_split:right
-keybind = super+b>e=equalize_splits
+keybind = alt+b>h=new_split:left
+keybind = alt+b>j=new_split:down
+keybind = alt+b>k=new_split:up
+keybind = alt+b>l=new_split:right
+keybind = alt+b>e=equalize_splits
 
 # split nav (setting this to control will not work if tmux already uses it)
-keybind = super+h=goto_split:left
-keybind = super+j=goto_split:bottom
-keybind = super+k=goto_split:top
-keybind = super+l=goto_split:right
+keybind = alt+h=goto_split:left
+keybind = alt+j=goto_split:bottom
+keybind = alt+k=goto_split:top
+keybind = alt+l=goto_split:right
 
-keybind = super+b>c=reload_config
-keybind = ctrl+enter=unbind
+keybind = alt+b>c=reload_config
+
 #Shaders
 # custom-shader = shaders/bettercrt.glsl
 # custom-shader = shaders/retro-terminal.glsl

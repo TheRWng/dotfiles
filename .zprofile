@@ -1,19 +1,16 @@
 # ------------ FZF Configuration ---------------
+
 # Core settings
-export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude '.git'"
+export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude '.git' --exclude '.svn' --exclude '.hg'"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude '.git'"
+export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude '.git' --exclude '.svn' --exclude '.hg'"
 
-# Visual settings
-export FZF_DEFAULT_OPTS="--height 50% --layout=reverse --border --no-multi \
---select-1 --exit-0 --color=hl:#2dd4bf --pointer='▶' --marker='✓'"
+# wl-copy for wayland!
+export FZF_DEFAULT_OPTS="--ansi --height 50% --layout=reverse --border --color=hl:#2dd4bf --pointer='❯' --scheme=path --bind 'ctrl-y:execute-silent(echo -n {} | wl-copy)'"
 
-# Preview configurations
-export FZF_CTRL_T_OPTS="--preview 'bat --color=always --line-range :500 {}'"
-export FZF_ALT_C_OPTS="--preview 'eza --icons --tree --color=always {} | head -200'"
+# Preview configurations (with --ansi for colors)
+export FZF_CTRL_T_OPTS="--ansi --preview 'bat --color=always --line-range :500 {}'"
+export FZF_ALT_C_OPTS="--ansi --preview 'eza --icons --tree --color=always {} | head -200'"
+
+# Tmux settings (if used)
 export FZF_TMUX_OPTS="-p90%,70%"
-
-# Key bindings (ensure they're set after plugin load)
-bindkey '^R' fzf-history-widget
-bindkey '^T' fzf-file-widget
-bindkey '^[c' fzf-cd-widget  # Alt+C
