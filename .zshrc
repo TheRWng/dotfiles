@@ -26,7 +26,7 @@ eval "$(atuin init zsh)"
 # bindkey -s '\es' "tmux-sessionizer -s 3\n"
 
 # Auto-suggest
-bindkey '^[[27;2;13~' autosuggest-accept
+bindkey '^[[27;2;13~' autosuggest-accept    # shift+enter
 
 # Aliases
 alias vim='nvim'
