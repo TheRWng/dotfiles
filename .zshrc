@@ -1,18 +1,15 @@
-# source antidote
 # git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-$HOME}/.antidote
 # chsh -s $(which zsh)
+
+# source antidote
 source $HOME/.antidote/antidote.zsh
 antidote load
+
 autoload -Uz compinit && compinit
 autoload -Uz promptinit && promptinit && prompt pure
 eval "$(zoxide init zsh)"
-
-# zstyle ':completion:*' verbose yes
-# zstyle ':completion:*:messages' format '%d'
-# zstyle ':completion:*:warnings' format 'No matches: %d'
-
-# source /usr/share/fzf/key-bindings.zsh
-# source /usr/share/fzf/completion.zsh
+source <(fzf --zsh)
+eval "$(atuin init zsh)"
 
 # export PATH="$HOME/.local/bin/:$PATH"
 # bindkey -s ^f "tmux-sessionizer\n"
@@ -34,6 +31,7 @@ alias pacs='sudo pacman -S --needed'
 alias pars='paru -S --needed'
 alias scanleaks='gitleaks detect --source . -v'
 alias magic='chmod +x'
+alias unstow='stow -D'
 
 # Prevent accidental overwrites and appends
 set -o noclobber
