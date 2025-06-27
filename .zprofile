@@ -1,4 +1,4 @@
-# ------------ FZF Configuration ---------------
+# FZF Configuration
 
 # Core settings
 export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude '.git' --exclude '.svn' --exclude '.hg'"
@@ -12,5 +12,8 @@ export FZF_DEFAULT_OPTS="--ansi --height 50% --layout=reverse --border --color=h
 export FZF_CTRL_T_OPTS="--ansi --preview 'bat --color=always --line-range :500 {}'"
 export FZF_ALT_C_OPTS="--ansi --preview 'eza --icons --tree --color=always {} | head -200'"
 
-# Tmux settings (if used)
+# Tmux settings
 export FZF_TMUX_OPTS="-p90%,70%"
+
+# Bat configuration
+export BAT_THEME="ansi"  # Uses terminal colors
