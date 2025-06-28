@@ -4,6 +4,7 @@ set -e
 packages=(
 	atuin
 	bat
+	btop
 	cliphist
 	dunst
 	egl-wayland
