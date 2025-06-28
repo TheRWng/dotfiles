@@ -38,11 +38,11 @@
     "interval": 1
   },
   "network": {
-    "format-wifi": "󰤢 ",
+    "format-wifi": " ",
     "format-ethernet": "󰈀 ",
     "format-disconnected": "󰤠 ",
     "interval": 5,
-    "tooltip-format": "{ifname}\n{essid} ({signalStrength}%)",
+    "tooltip-format": "  {essid} ({signalStrength}%)\n  {ipaddr}",
     "tooltip": true,
     "on-click": "ghostty -e nmtui"
   },
