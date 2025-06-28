@@ -4,6 +4,7 @@ set -e
 packages=(
 	atuin
 	bat
+	blueberry
 	btop
 	cliphist
 	dunst

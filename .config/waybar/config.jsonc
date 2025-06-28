@@ -11,6 +11,7 @@
   "modules-right": [
     "pulseaudio",
     "network",
+    "bluetooth",
     "cpu",
     "memory",
     "tray",
@@ -38,7 +39,7 @@
     "interval": 1
   },
   "network": {
-    "format-wifi": "<span rise='2pt'>{icon}</span>",
+    "format-wifi": "{icon}",
     "format-ethernet": "󰈀 ",
     "format-disconnected": "󰤫 ",
     "interval": 5,
@@ -84,5 +85,17 @@
 	"tooltip": false,
         "on-click": "wlogout &",
         "format": "⏻"
-    }
+    },
+    "bluetooth": {
+        "format": "{icon}",
+        "format-icons": {
+            "enabled": "󰂯",  // Bluetooth on icon
+            "disabled": "󰂲"   // Bluetooth off icon
+        },
+        "on-click": "blueberry",
+	"interval": 10,
+        "tooltip": false
+}
+
+
 }
