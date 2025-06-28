@@ -47,7 +47,6 @@ packages=(
 	ttf-jetbrains-mono-nerd
 	udiskie
 	udisks2
-	uwsm
 	waybar
 	wireplumber
 	wl-clipboard
@@ -89,17 +88,7 @@ echo "Installation complete. Reboot recommended for Hyprland."
 # bind = SUPER, V, exec, cliphist list | rofi -dmenu | cliphist decode | wl-copy
 #
 #
-# For uwsm in zshrc i think
-#
-# if uwsm check may-start; then
-#    exec uwsm start hyprland.desktop
-# fi
-#
-# launch apps using uwsm (Use for long running tools)
-# exec-once = uwsm app -- waybar  # Status bar
-# exec-once = uwsm app -- udiskie --tray  # USB automount
 # do dunst too
-# bind = SUPER, E, exec, uwsm app -- pcmanfm-qt.desktop  # Safe (GUI app)
 #
 #
 # get hyprpm plugin

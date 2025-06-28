@@ -1,6 +1,6 @@
-# Hyprland autostart
-if uwsm check may-start; then
-    exec uwsm start hyprland-uwsm.desktop
+# Auto-start Hyprland on tty1 if no display is detected
+if [ -z "$DISPLAY" ] && [ "$(tty)" = "/dev/tty1" ]; then
+    exec Hyprland
 fi
 
 #FZF Configuration
