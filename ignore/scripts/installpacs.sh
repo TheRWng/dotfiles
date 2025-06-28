@@ -16,6 +16,7 @@ packages=(
 	gitleaks
 	hypridle
 	hyprland
+	hyprlock
 	hyprpaper
 	hyprpolkitagent
 	hyprshot
@@ -53,7 +54,6 @@ packages=(
 	yazi
 	zoxide
 	zsh
-	# hyprlock
 	# lib32-libglvnd
 	# lib32-nvidia-utils
 	# lib32-vulkan-icd-loader
