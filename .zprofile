@@ -1,4 +1,9 @@
-# FZF Configuration
+# Hyprland autostart
+if uwsm check may-start; then
+    exec uwsm start hyprland-uwsm.desktop
+fi
+
+#FZF Configuration
 
 # Core settings
 export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude '.git' --exclude '.svn' --exclude '.hg'"
