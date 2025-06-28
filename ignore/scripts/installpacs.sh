@@ -30,6 +30,7 @@ packages=(
 	neovim
 	nvidia-utils
 	openssh
+	pavucontrol
 	pipewire-pulse
 	polkit
 	qt5-wayland
@@ -56,7 +57,6 @@ packages=(
 	# lib32-libglvnd
 	# lib32-nvidia-utils
 	# lib32-vulkan-icd-loader
-	# pavucontrol
 	# steam
 	# ttf-font-awesome
 	# vulkan-icd-loader
