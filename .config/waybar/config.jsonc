@@ -60,13 +60,14 @@
   "cpu": {
     "interval": 5,
     "format": "  {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
-    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+    "on-click": "ghostty -e btop"
   },
   "memory": {
     "interval": 5,
     "format": "  {used:0.1f}G/{total:0.1f}G",
     "tooltip": false,
-    "on-click": "ghostty -e btop"
+    "on-click": "ghostty -e ncdu"
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
