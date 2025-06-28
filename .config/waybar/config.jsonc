@@ -38,16 +38,26 @@
     "interval": 1
   },
   "network": {
-    "format-wifi": " ",
+    "format-wifi": "<span rise='2pt'>{icon}</span>",
     "format-ethernet": "󰈀 ",
-    "format-disconnected": "󰤠 ",
+    "format-disconnected": "󰤫 ",
     "interval": 5,
-    "tooltip-format": "  {essid} ({signalStrength}%)\n  {ipaddr}",
+    "tooltip-format": "  {essid} ({signalStrength}%)\n  {ipaddr}\n↓ {bandwidthDownBits} ↑ {bandwidthUpBits}",
     "tooltip": true,
-    "on-click": "ghostty -e nmtui"
-  },
+    "on-click": "ghostty -e nmtui",
+    "format-icons": {
+        "wifi": [
+            "󰤟 ",  // 0-25% signal
+            "󰤢 ",  // 25-50%
+            "󰤥 ",  // 50-75%
+            "󰤨 "   // 75-100%
+        ]
+    },
+    "on-click-right": "nm-connection-editor",
+    "signal-steps": 4  // Matches number of icons
+},
   "cpu": {
-    "interval": 1,
+    "interval": 5,
     "format": "  {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
     "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
   },
