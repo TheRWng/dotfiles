@@ -28,7 +28,7 @@
     "icon-size": 21
   },
   "custom/empty-spacer": {
-    "format": "      ", 
+    "format": "    ", 
     "tooltip": false
   },
   "clock": {
