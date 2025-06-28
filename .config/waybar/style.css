@@ -48,8 +48,7 @@
 #custom-power {
   background-color: #101010;
   padding: 0.5rem 1rem;
-  margin: 0; /* Changed from 5px 0 */
-  border-radius: 0; /* Changed from rounded corners */
+  margin: 5px 0;
 }
 
 #clock {
