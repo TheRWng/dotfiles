@@ -52,9 +52,9 @@
   border-radius: 0; /* Changed from rounded corners */
 }
 
-/* Special Cases */
 #pulseaudio {
   color: #ea999c;
+  border-radius: 5px 0px 0px 5%;
   margin-left: 1rem;
 }
 
@@ -64,6 +64,7 @@
 
 #custom-power {
   margin-right: 1rem;
+  border-radius: 0px 5px 5px 0px;
   color: #e78284;
 }
 
