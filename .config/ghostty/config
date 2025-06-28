@@ -60,16 +60,16 @@ keybind = alt+b>comma=move_tab:-1
 keybind = alt+b>period=move_tab:1
 
 # tab nav
-keybind = alt+1=goto_tab:1
-keybind = alt+2=goto_tab:2
-keybind = alt+3=goto_tab:3
-keybind = alt+4=goto_tab:4
-keybind = alt+5=goto_tab:5
-keybind = alt+6=goto_tab:6
-keybind = alt+7=goto_tab:7
-keybind = alt+8=goto_tab:8
-keybind = alt+9=goto_tab:9
-keybind = alt+0=goto_tab:10
+keybind = alt+b>1=goto_tab:1
+keybind = alt+b>2=goto_tab:2
+keybind = alt+b>3=goto_tab:3
+keybind = alt+b>4=goto_tab:4
+keybind = alt+b>5=goto_tab:5
+keybind = alt+b>6=goto_tab:6
+keybind = alt+b>7=goto_tab:7
+keybind = alt+b>8=goto_tab:8
+keybind = alt+b>9=goto_tab:9
+keybind = alt+b>0=goto_tab:10
 
 # splitting
 keybind = alt+b>shift+h=new_split:left
