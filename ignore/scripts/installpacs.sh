@@ -29,6 +29,7 @@ packages=(
 	mpv
 	ncdu
 	neovim
+	nvidia-dkms
 	nvidia-utils
 	openssh
 	pavucontrol
@@ -54,13 +55,9 @@ packages=(
 	yazi
 	zoxide
 	zsh
-	# lib32-libglvnd
 	# lib32-nvidia-utils
-	# lib32-vulkan-icd-loader
 	# steam
 	# ttf-font-awesome
-	# vulkan-icd-loader
-	# nvidia-dkms
 )
 
 # Check if package is installed
