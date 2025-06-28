@@ -87,9 +87,6 @@ echo "Installation complete. Reboot recommended for Hyprland."
 #
 # bind = SUPER, V, exec, cliphist list | rofi -dmenu | cliphist decode | wl-copy
 #
-# Paru:
-# overskride maybe need to configure
-#
 #
 # For uwsm in zshrc i think
 #

@@ -3,6 +3,7 @@ set -e
 
 packages=(
     asdf-vm
+    overskride
     wlogout
     zen-browser-bin
 )
