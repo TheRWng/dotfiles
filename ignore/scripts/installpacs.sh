@@ -56,6 +56,7 @@ packages=(
 	yazi
 	zoxide
 	zsh
+	# gamescope       # For problems with steam/proton games
 	# lib32-nvidia-utils
 	# steam
 	# ttf-font-awesome
