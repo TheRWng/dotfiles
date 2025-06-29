@@ -58,6 +58,7 @@ packages=(
 	# lib32-nvidia-utils
 	# steam
 	# ttf-font-awesome
+	# hyprpm plugin if using hyprland plugins
 )
 
 # Check if package is installed
@@ -80,30 +81,6 @@ done
 
 echo "Installation complete. Reboot recommended for Hyprland."
 
-# pdf editor?
-#
-#
-#
-#
 # bind = SUPER, V, exec, cliphist list | rofi -dmenu | cliphist decode | wl-copy
 #
-#
-# do dunst too
-#
-#
-# get hyprpm plugin
-#
-#
-#
-# Do this in /etc/modprobe.d/nvidia.conf            should be done already tho
-# options nvidia_drm modeset=1
-#
-#
-# Early KMS will allow the Nvidia modules to load earlier into the boot sequence. On distros using mkinitcpio, like Arch, you can enable it by editing /etc/mkinitcpio.conf. In the MODULES array add the following module names:
-#
-# MODULES=(... nvidia nvidia_modeset nvidia_uvm nvidia_drm ...)
 # then sudo mkinitcpio -P and reboot
-#
-# add to hyprland config
-# env = LIBVA_DRIVER_NAME,nvidia
-# env = __GLX_VENDOR_LIBRARY_NAME,nvidia

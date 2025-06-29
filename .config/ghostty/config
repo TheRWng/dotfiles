@@ -29,6 +29,7 @@ copy-on-select = clipboard
 app-notifications = no-clipboard-copy
 
 # Mouse
+mouse-scroll-multiplier = 1
 # mouse-hide-while-typing = true
 
 # behavior
