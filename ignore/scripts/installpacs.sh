@@ -7,6 +7,7 @@ packages=(
 	blueberry
 	btop
 	cliphist
+	cpupower
 	dunst
 	egl-wayland
 	eza
