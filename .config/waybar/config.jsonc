@@ -1,0 +1,102 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": [
+        "hyprland/workspaces"
+    ],
+  "modules-center": [
+	  "custom/empty-spacer",
+	  "clock"
+  ],
+  "modules-right": [
+    "pulseaudio",
+    "network",
+    "bluetooth",
+    "cpu",
+    "memory",
+    "tray",
+    "custom/lock",
+    "custom/power"
+  ],
+  "hyprland/workspaces": {
+    "format": "{name}: {icon}",
+    "format-icons": {
+      "active": "",
+      "default": ""
+    }
+  },
+  "tray": {
+    "icon-size": 21
+  },
+  "custom/empty-spacer": {
+    "format": "    ", 
+    "tooltip": false
+  },
+  "clock": {
+    "timezone": "Asia/Singapore",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format": "{:%d - %H:%M:%S}",
+    "interval": 1
+  },
+  "network": {
+    "format-wifi": "{icon}",
+    "format-ethernet": "󰈀 ",
+    "format-disconnected": "󰤫 ",
+    "interval": 5,
+    "tooltip-format": "  {essid} ({signalStrength}%)\n  {ipaddr}\n↓ {bandwidthDownBits} ↑ {bandwidthUpBits}",
+    "tooltip": true,
+    "on-click": "ghostty -e nmtui",
+    "format-icons": {
+        "wifi": [
+            "󰤟 ",  // 0-25% signal
+            "󰤢 ",  // 25-50%
+            "󰤥 ",  // 50-75%
+            "󰤨 "   // 75-100%
+        ]
+    },
+    "on-click-right": "nm-connection-editor",
+    "signal-steps": 4  // Matches number of icons
+},
+  "cpu": {
+    "interval": 5,
+    "format": "  {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+    "on-click": "ghostty -e btop"
+  },
+  "memory": {
+    "interval": 5,
+    "format": "  {used:0.1f}G/{total:0.1f}G",
+    "tooltip": false,
+    "on-click": "ghostty -e ncdu"
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "",
+    "format-icons": {
+      "default": ["", "", " "]
+    },
+    "on-click": "pavucontrol"
+  },
+  "custom/lock": {
+    "tooltip": false,
+    "on-click": "sh -c '(sleep 0.5s; hyprlock)' & disown",
+    "format": ""
+  },
+  "custom/power": {
+	"tooltip": false,
+        "on-click": "wlogout &",
+        "format": "⏻"
+    },
+    "bluetooth": {
+        "format": "{icon}",
+        "format-icons": {
+            "enabled": "󰂯",  // Bluetooth on icon
+            "disabled": "󰂲"   // Bluetooth off icon
+        },
+        "on-click": "blueberry",
+	"interval": 10,
+        "tooltip": false
+}
+
+
+}
