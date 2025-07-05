@@ -28,6 +28,7 @@ packages=(
   imagemagick
   imv
   jq
+  lazygit
   less
   libnewt
   libnotify
