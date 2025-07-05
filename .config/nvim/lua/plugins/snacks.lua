@@ -15,6 +15,7 @@ return {
   end,
 
   opts = {
+    animate = { enabled = false },
     bigfile = { enabled = true },
     dashboard = {
       preset = {
