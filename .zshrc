@@ -42,6 +42,7 @@ alias pars='paru -S --needed'
 alias scanleaks='gitleaks detect --source . -v'
 alias magic='chmod +x'
 alias unstow='stow -D'
+alias timeshift='sudo -E timeshift-launcher'
 
 # Prevent accidental overwrites and appends
 set -o noclobber
