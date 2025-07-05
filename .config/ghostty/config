@@ -13,7 +13,7 @@ cursor-style-blink = false
 # window
 resize-overlay = never
 background = 000000
-background-opacity = 0.9
+background-opacity = 1
 background-blur = false
 window-step-resize = false
 window-padding-balance = true
