@@ -17,3 +17,11 @@
 element selected {
     text-color: @bg1;
 }
+
+configuration {
+	// Keyboard bindings.
+  kb-remove-to-eol: "";
+  kb-accept-entry: "Return";
+	kb-row-up: "Control+k";
+	kb-row-down: "Control+j";
+}
