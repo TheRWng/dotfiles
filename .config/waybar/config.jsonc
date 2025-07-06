@@ -46,7 +46,7 @@
     "interval": 5,
     "tooltip-format": "  {essid} ({signalStrength}%)\n  {ipaddr}\n↓ {bandwidthDownBits} ↑ {bandwidthUpBits}",
     "tooltip": true,
-    "on-click": "ghostty -e nmtui",
+    "on-click": "nm-applet",
     "format-icons": {
         "wifi": [
             "󰤟 ",  // 0-25% signal

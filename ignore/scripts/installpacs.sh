@@ -40,6 +40,8 @@ packages=(
   mpv
   ncdu
   neovim
+  networkmanager
+  network-manager-applet
   nodejs
   nvidia-dkms
   nvidia-utils
