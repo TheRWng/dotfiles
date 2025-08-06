@@ -8,7 +8,7 @@
 GRUB_DEFAULT=saved
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR="Arch"
-GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet splash "
+GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3 nowatchdog nohz_full=1 nvidia-drm.modeset=1 audit=1 mitigations=auto"
 GRUB_CMDLINE_LINUX=""
 
 # Preload both GPT and MBR modules so that they are not missed
