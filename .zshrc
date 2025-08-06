@@ -36,6 +36,8 @@ alias cat='bat --paging=never'
 alias ls="eza --all --group-directories-first --sort=modified --color=always --icons=always --no-user --no-filesize"
 alias lst="eza --all --tree --level=2 --color=always --icons=always --no-user --no-filesize"
 alias grep='rg --smart-case --hidden'
+alias performance='sudo cpupower frequency-set -g performance'
+alias powersave='sudo cpupower frequency-set -g powersave'
 
 alias pacs='sudo pacman -S --needed'
 alias pars='paru -S --needed'
