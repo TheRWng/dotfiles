@@ -1,0 +1,1 @@
+LD_PRELOAD="" SDL_VIDEO_DRIVER=wayland %command% -w 1280 -h 960
