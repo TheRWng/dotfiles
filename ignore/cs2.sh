@@ -5,6 +5,7 @@
 # specified directory, then uses $PWD to figure out where that
 # directory lives - and all this in a subshell, so we don't affect
 # $PWD
+# locate under /home/rw/.steam/steam/steamapps/common/Counter-Strike Global Offensive/game
 
 GAMEROOT=$(cd "${0%/*}" && echo $PWD)
 SCRIPTNAME=$(basename $0)
