@@ -3,6 +3,7 @@ set -e
 
 packages=(
   asdf-vm
+  downgrade
   spotify
   webcord
   # whatsapp-for-linux         doesnt work
