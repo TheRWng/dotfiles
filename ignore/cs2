@@ -1,2 +1,2 @@
 Launch Options:
-LD_PRELOAD="" %command% -w 1280 -h 960 -fullscreen
+LD_PRELOAD="" gamescope -W 2560 -H 1440 -w 1280 -h 960 -S stretch -f -e -r 144.0 --force-grab-cursor --immediate-flips --expose-wayland -- %command%
