@@ -44,7 +44,6 @@ packages=(
   network-manager-applet
   nodejs
   nvidia-dkms
-  nvidia-settings
   nvidia-utils
   openssh
   pavucontrol
@@ -65,20 +64,17 @@ packages=(
   ttf-jetbrains-mono-nerd
   udiskie
   udisks2
-  # vulkan-icd-loader
   waybar
   wireplumber
   wl-clipboard
   wl-clip-persist
   xdg-desktop-portal-hyprland
-  xorg-server-xwayland
   yazi
   zoxide
   zsh
   # alsa-utils
-  # gamescope       # For problems with steam/proton games... doesnt even work
+  # gamescope       # For problems with steam/proton games
   # lib32-nvidia-utils
-  # lib32-vulkan-icd-loader
   # steam
   # ttf-font-awesome
   # hyprpm plugin if using hyprland plugins
