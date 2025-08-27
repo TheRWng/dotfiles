@@ -1,3 +1,0 @@
-#!/bin/sh
-xrandr --newmode "1280x960_144.00" 267.25 1280 1392 1528 1776 960 963 967 1046 -hsync +vsync
-xrandr --addmode DP-1 1280x960_144.00
