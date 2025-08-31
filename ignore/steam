@@ -1,0 +1,7 @@
+Launch Options:
+
+CS2:
+LD_PRELOAD="" SDL_VIDEODRIVER=wayland gamescope -W 2560 -H 1440 -w 1280 -h 960 -S stretch -f -e -r 144.0 --force-grab-cursor --immediate-flips -- %command%
+
+Deadlock:
+LD_PRELOAD="" PROTON_HIDE_NVIDIA_GPU=1 %command%
