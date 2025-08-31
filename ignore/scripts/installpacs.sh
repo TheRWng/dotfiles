@@ -45,6 +45,7 @@ packages=(
   nodejs
   nvidia-dkms
   nvidia-utils
+  obsidian
   openssh
   pavucontrol
   pipewire-pulse
