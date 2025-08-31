@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c2ede4f75fbc6f5a",
+        "id": "235224f966288fa8",
         "type": "tabs",
         "children": [
           {
-            "id": "b661bed2601f0aa8",
+            "id": "813c39e0263a6c6e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "sync/Modeling&DataAnalytics/Notes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Notes"
             }
           }
         ]
@@ -29,7 +33,7 @@
       {
         "id": "53dbe316c57eaacb",
         "type": "tabs",
-        "dimension": 71.42857142857143,
+        "dimension": 78.30609212481427,
         "children": [
           {
             "id": "28331d8605e23791",
@@ -59,7 +63,7 @@
       {
         "id": "c480ad953dd55ed4",
         "type": "tabs",
-        "dimension": 28.57142857142857,
+        "dimension": 21.693907875185737,
         "children": [
           {
             "id": "aa934ae5169d9a96",
@@ -84,7 +88,7 @@
       {
         "id": "8a03e2aa7cdae61c",
         "type": "tabs",
-        "dimension": 59.86078886310904,
+        "dimension": 72.21022318214543,
         "children": [
           {
             "id": "c869d947d65aa325",
@@ -140,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modeling&DataAnalytics/Notes.md",
+                "file": "sync/Modeling&DataAnalytics/Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -155,7 +159,7 @@
       {
         "id": "5c2d9f2bfa612ded",
         "type": "tabs",
-        "dimension": 40.13921113689095,
+        "dimension": 27.789776817854573,
         "children": [
           {
             "id": "ad79b05ee8508224",
@@ -171,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 245.5
   },
   "left-ribbon": {
     "hiddenItems": {
