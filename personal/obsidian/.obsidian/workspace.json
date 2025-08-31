@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1f3dbed5e6de9783",
+        "id": "c2ede4f75fbc6f5a",
         "type": "tabs",
         "children": [
           {
-            "id": "82d1bcbc15e9ad62",
+            "id": "b661bed2601f0aa8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "test"
+              "title": "New tab"
             }
           }
         ]
@@ -167,8 +163,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -186,14 +182,21 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "82d1bcbc15e9ad62",
+  "active": "28331d8605e23791",
   "lastOpenFiles": [
-    "test.md",
+    "sync/Modeling&DataAnalytics/test.md",
+    "sync/Modeling&DataAnalytics/test.md",
+    "sync/Modeling&DataAnalytics/Notes.md",
+    "sync/Modeling&DataAnalytics",
+    "sync",
+    "sync/README.md",
+    "obsidian/README.md",
+    "obsidian",
     "test.py.md",
-    "Modeling&DataAnalytics/Notes.md",
     "Untitled.canvas",
     "2025-08-31.md",
     "Untitled.base"
