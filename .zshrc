@@ -45,6 +45,7 @@ alias scanleaks='gitleaks detect --source . -v'
 alias magic='chmod +x'
 alias unstow='stow -D'
 alias timeshift='sudo -E timeshift-launcher'
+alias disc='flatpak run com.discordapp.Discord'
 
 # Prevent accidental overwrites and appends
 set -o noclobber
