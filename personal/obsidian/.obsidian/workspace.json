@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sync/IDP/Week 3.md",
+                "file": "sync/WAD2/Playwright commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 3"
+              "title": "Playwright commands"
             }
           }
         ]
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sync/IDP/Week 3.md",
+                "file": "sync/WAD2/Playwright commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week 3"
+              "title": "Outline of Playwright commands"
             }
           }
         ],
@@ -194,15 +194,16 @@
   },
   "active": "d749e897c6da4b57",
   "lastOpenFiles": [
-    "sync/zzz/test.md",
+    "sync/WAD2/Graded.md",
+    "sync/WAD2/Bootstrap.md",
     "sync/IDP/Week 3.md",
+    "sync/zzz/test.md",
     "sync/zzz/obsidian.md",
     "sync/zzz/Todo.md",
     "sync/zzz/Misc.md",
     "sync/zzz/secret sauce.md",
     "sync/BusinessProcessAnalysis&Solutioning/Graded.md",
     "sync/zzz/Blacklist.md",
-    "sync/WAD2/Graded.md",
     "sync/Modeling&DataAnalytics/Graded.md",
     "sync/Modeling&DataAnalytics/Todo.md",
     "sync/Teaching Assistant/Todo.md",
@@ -211,7 +212,6 @@
     "sync/BusinessProcessAnalysis&Solutioning/Week3Modelling.md",
     "sync/Teaching Assistant",
     "sync/WAD2/Todo.md",
-    "sync/WAD2/Bootstrap.md",
     "sync/WAD2/Playwright commands.md",
     "sync/IDP",
     "sync/zzz/interview.md",
