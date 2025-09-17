@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sync/WAD2/Playwright commands.md",
+                "file": "sync/zzz/Todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Playwright commands"
+              "title": "Todo"
             }
           }
         ]
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sync/WAD2/Playwright commands.md",
+                "file": "sync/zzz/Todo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Playwright commands"
+              "title": "Outline of Todo"
             }
           }
         ],
@@ -194,6 +194,16 @@
   },
   "active": "d749e897c6da4b57",
   "lastOpenFiles": [
+    "sync/zzz/secret sauce.md",
+    "sync/BusinessProcessAnalysis&Solutioning/Todo.md",
+    "sync/WAD2/Playwright commands.md",
+    "sync/WAD2/Week 5.md",
+    "sync/WAD2/Lab Test.md",
+    "sync/Modeling&DataAnalytics/Week 5.md",
+    "sync/Modeling&DataAnalytics/Excel_Functions_Notes.md",
+    "sync/BusinessProcessAnalysis&Solutioning/Week 5.md",
+    "sync/BusinessProcessAnalysis&Solutioning/Proj/Stakeholders.md",
+    "sync/BusinessProcessAnalysis&Solutioning/Proj",
     "sync/zzz/Todo.md",
     "sync/IDP/Todo.md",
     "sync/IDP/Week 3.md",
@@ -204,27 +214,18 @@
     "sync/Modeling&DataAnalytics/Graded.md",
     "sync/WAD2/Todo.md",
     "sync/WAD2/Week 4.md",
-    "sync/BusinessProcessAnalysis&Solutioning/Todo.md",
     "sync/BusinessProcessAnalysis&Solutioning/Graded.md",
     "sync/Modeling&DataAnalytics/Notes.md",
     "sync/Modeling&DataAnalytics/Week 4.md",
     "sync/BusinessProcessAnalysis&Solutioning/Week4Analysis.md",
-    "sync/WAD2/Playwright commands.md",
     "sync/WAD2/Graded.md",
     "sync/WAD2/Bootstrap.md",
     "sync/zzz/test.md",
-    "sync/zzz/obsidian.md",
-    "sync/zzz/Misc.md",
-    "sync/zzz/secret sauce.md",
-    "sync/zzz/Blacklist.md",
-    "sync/BusinessProcessAnalysis&Solutioning/Week3Modelling.md",
     "sync/Teaching Assistant",
     "sync/IDP",
-    "sync/zzz/interview.md",
     "Untitled.canvas",
     "sync/zzz/pictures/Pasted image 20250904010816.png",
     "sync/zzz/pictures/Pasted image 20250904005658.png",
-    "temp.md",
     "sync/zzz/pictures/Pasted image 20250904000222.png",
     "sync/zzz/pictures/Pasted image 20250903231352.png",
     "sync/zzz/pictures/Screenshot 2025-09-02 at 15.50.14.jpg",
@@ -238,7 +239,6 @@
     "sync/BusinessProcessAnalysis&Solutioning",
     "sync/Modeling&DataAnalytics",
     "sync",
-    "obsidian",
-    "Untitled.base"
+    "obsidian"
   ]
 }
