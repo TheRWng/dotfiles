@@ -9,6 +9,7 @@ packages=(
   # whatsapp-for-linux         doesnt work
   wlogout
   zen-browser-bin
+  zoom
 )
 
 # Check if package is installed
