@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "acf1156af5d1c20c",
+        "id": "fddf2c415329e7c8",
         "type": "tabs",
         "children": [
           {
-            "id": "b6d2792a23be944f",
+            "id": "a513a0c00721a01e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -192,8 +192,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b6d2792a23be944f",
+  "active": "a513a0c00721a01e",
   "lastOpenFiles": [
+    "sync/BusinessProcessAnalysis&Solutioning/Todo.md",
+    "sync/Todo.md",
+    "sync/WAD2/Todo.md",
+    "sync/zzz/obsidian.md",
+    "sync/zzz/secret sauce.md",
     "sync/Gym/Weight.md",
     "sync/Gym/BF table.md",
     "sync/WAD2/Week4_DOMS_ClassList.md",
@@ -215,18 +220,13 @@
     "sync/zzz/pictures/Pasted image 20250926161855.png",
     "sync/zzz/pictures/Pasted image 20250926161513.png",
     "sync/zzz/pictures/Pasted image 20250926160736.png",
-    "sync/Todo.md",
     "sync/zzz/pictures",
     "sync/BusinessProcessAnalysis&Solutioning/Graded.md",
     "sync/Modeling&DataAnalytics/Week 3.md",
     "sync/BusinessProcessAnalysis&Solutioning/Week3Modelling.md",
     "sync/BusinessProcessAnalysis&Solutioning/Week 5.md",
-    "sync/BusinessProcessAnalysis&Solutioning/Todo.md",
     "sync/IDP/Week 3.md",
     "sync/IDP/todo.md",
-    "sync/misc/Todo.md",
-    "sync/Modeling&DataAnalytics/Week 6.md",
-    "sync/Modeling&DataAnalytics/Week 5.md",
     "Pasted image 20250926152629.png",
     "sync/zzz/pictures/Pasted image 20250926151540.png",
     "sync/zzz/pictures",
